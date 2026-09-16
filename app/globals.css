@@ -150,6 +150,10 @@ section { padding: clamp(5rem, 10vw, 8.5rem) 0; scroll-margin-top: 5.5rem; posit
 .tags { margin-top: 1.25rem; }
 .tag { display: inline-flex; min-height: 2rem; align-items: center; padding: .3rem .65rem; border: 1px solid var(--border); border-radius: 999px; color: var(--text-secondary); font-family: var(--font-geist-mono); font-size: .7rem; line-height: 1.2; transition: border-color .25s cubic-bezier(.16,1,.3,1), background .25s cubic-bezier(.16,1,.3,1), color .25s cubic-bezier(.16,1,.3,1); }
 .tag:hover { border-color: rgb(155 122 238 / 55%); background: rgb(155 122 238 / 8%); color: var(--foreground); }
+.skill-tag { gap: .5rem; min-height: 2.35rem; padding: .38rem .75rem .38rem .42rem; }
+.skill-logo { display: inline-grid; width: 1.55rem; height: 1.55rem; flex: 0 0 1.55rem; place-items: center; border: 1px solid rgb(155 122 238 / 20%); border-radius: .45rem; background: rgb(155 122 238 / 9%); color: var(--primary-hover); transition: transform .25s cubic-bezier(.16,1,.3,1), background .25s cubic-bezier(.16,1,.3,1); }
+.skill-logo svg { width: .95rem; height: .95rem; }
+.skill-tag:hover .skill-logo { transform: translateY(-1px); background: rgb(155 122 238 / 16%); }
 
 #projects { background: var(--surface); }
 .featured-list { display: grid; gap: clamp(6rem, 12vw, 10rem); }

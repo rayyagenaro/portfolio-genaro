@@ -32,6 +32,7 @@ Dark editorial technology portfolio. Asymmetric composition, precise data labels
 - Hero: formal portrait as the central identity mark within the capability orbit
 - Leadership: documentary photography paired directly with each verified event record
 - Projects: five equal-depth case studies followed by a dedicated GitHub archive callout
+- Skills: compact labeled chips pair verified software brand marks with neutral system icons for conceptual capabilities
 
 ## Imagery
 - Real photographs only; keep natural color and visible event context
@@ -66,3 +67,4 @@ Dark editorial technology portfolio. Asymmetric composition, precise data labels
 2026-09-16 - Added documentary event photography and a four-frame personal portrait story.
 2026-09-16 - Replaced project diagrams with real mockups, added verified links, and moved the formal portrait into the hero.
 2026-09-16 - Promoted all five projects to full case studies, enlarged the hero portrait, and added HRD documentation.
+2026-09-16 - Added software brand marks and consistent capability icons to the skills section.

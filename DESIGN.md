@@ -35,6 +35,7 @@ Dark editorial technology portfolio. Asymmetric composition, precise data labels
 - Skills: compact labeled chips use verified software brand marks only; conceptual capabilities remain typographic
 - Interface chrome: native controls and restrained text links replace generic component-library and icon-heavy patterns
 - Spacing: a shared 8px-based token scale controls primary gaps and padding
+- Content hierarchy: descriptive titles stand alone without decorative numbering, field-note labels, or organization badges
 
 ## Imagery
 - Real photographs only; keep natural color and visible event context
@@ -71,3 +72,4 @@ Dark editorial technology portfolio. Asymmetric composition, precise data labels
 2026-09-16 - Promoted all five projects to full case studies, enlarged the hero portrait, and added HRD documentation.
 2026-09-16 - Added software brand marks and consistent capability icons to the skills section.
 2026-09-16 - Removed unused Shadcn UI, Lucide decoration, glass blur, status badges, colored card borders, and normalized primary spacing.
+2026-09-16 - Removed decorative indexing across sections and records, merged roles with organizations, and added the PMO HMSI award.

@@ -7,23 +7,20 @@ export function LeadershipSection() {
   return (
     <section id="leadership">
       <Container>
-        <SectionHeading index="07" title="Leadership, documented." intro="The teams, rooms, and responsibilities behind the numbers." />
+        <SectionHeading title="Leadership, documented." intro="The teams, rooms, and responsibilities behind the outcomes." />
         <div className="leadership-list">
-          {leadership.map((item, index) => (
+          {leadership.map((item) => (
             <article className={item.image ? 'has-photo' : 'no-photo'} key={item.id}>
-              {item.image ? (
+              {item.image && (
                 <figure className="leadership-photo" style={{ backgroundImage: `url("${item.image}")`, backgroundPosition: item.imagePosition }}>
                   <img className="semantic-photo" src={item.image} alt={item.imageAlt ?? ''} loading="lazy" decoding="async" />
-                  <figcaption>Field note / {String(index + 1).padStart(2, '0')}</figcaption>
                 </figure>
-              ) : (
-                <div className="leadership-index" aria-hidden="true">{String(index + 1).padStart(2, '0')}</div>
               )}
               <time>{item.period}</time>
               <div className="leadership-copy">
-                <p className="meta">{item.organization}</p>
-                <h3>{item.role}</h3>
+                <h3>{item.role} <span aria-hidden="true">-</span> {item.organization}</h3>
                 <p>{item.summary}</p>
+                {item.award && <p className="leadership-award">Award: {item.award}</p>}
               </div>
               <strong>{item.impact}</strong>
             </article>

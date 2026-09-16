@@ -6,11 +6,10 @@ export function CertificationsSection() {
   return (
     <section id="certifications">
       <Container>
-        <SectionHeading index="06" title="Certifications" />
+        <SectionHeading title="Certifications" />
         <div className="cert-list">
-          {certifications.map((item, index) => (
+          {certifications.map((item) => (
             <article key={item.id}>
-              <span className="cert-index">0{index + 1}</span>
               <div><p className="meta">{item.issuer}</p><h3>{item.name}</h3><p>{item.summary}</p></div>
             </article>
           ))}

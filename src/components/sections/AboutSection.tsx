@@ -13,7 +13,7 @@ export function AboutSection() {
   return (
     <section id="about">
       <Container>
-        <SectionHeading index="01" title="Built between code, data, and operations." />
+        <SectionHeading title="Built between code, data, and operations." />
         <div className="about-grid">
           <div className="portrait-collage" aria-label="Portraits of Genaro in academic and everyday settings">
             {portraits.map((portrait) => (

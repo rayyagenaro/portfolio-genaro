@@ -7,13 +7,12 @@ export function ProjectsSection() {
   return (
     <section id="projects">
       <Container>
-        <SectionHeading index="03" title="Selected work, unpacked." intro="Five projects, shown with their real interfaces and the decisions behind each build." />
+        <SectionHeading title="Selected work, unpacked." intro="Five projects, shown with their real interfaces and the decisions behind each build." />
         <div className="featured-list">
           {projects.map((project, index) => <FeaturedProject key={project.id} project={project} index={index} />)}
         </div>
         <aside className="many-projects" aria-label="More projects on GitHub">
           <div>
-            <p className="meta">The archive continues</p>
             <h3>Many more projects.</h3>
           </div>
           <p>Coursework, experiments, and smaller builds across web development, analytics, optimization, and information systems.</p>

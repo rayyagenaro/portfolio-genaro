@@ -1,1 +1,8 @@
-export function SectionHeading({ index, title, intro }: { index: string; title: string; intro?: string }) { return <header className="section-heading"><span className="section-index">{index}</span><div><h2>{title}</h2>{intro && <p>{intro}</p>}</div></header>; }
+export function SectionHeading({ title, intro }: { title: string; intro?: string }) {
+  return (
+    <header className="section-heading">
+      <h2>{title}</h2>
+      {intro && <p>{intro}</p>}
+    </header>
+  );
+}

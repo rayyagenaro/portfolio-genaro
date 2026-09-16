@@ -7,11 +7,10 @@ export function SkillsSection() {
   return (
     <section id="skills">
       <Container>
-        <SectionHeading index="04" title="A stack built for connected problems." />
+        <SectionHeading title="A stack built for connected problems." />
         <div className="skills-grid">
-          {skillGroups.map((group, index) => (
+          {skillGroups.map((group) => (
             <article key={group.id}>
-              <span className="skill-number">0{index + 1}</span>
               <h3>{group.groupName}</h3>
               <div className="tags">
                 {group.skills.map((skill) => (

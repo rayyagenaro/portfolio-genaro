@@ -7,11 +7,9 @@ export function FeaturedProject({ project, index }: { project: Project; index: n
     <article className={`featured-project ${index % 2 ? 'reverse' : ''}`}>
       <figure className={`project-visual project-${project.id}`} style={project.image ? { backgroundImage: `url("${project.image}")` } : undefined}>
         {project.image && <img className="semantic-photo" src={project.image} alt={`Mockup of ${project.title}`} loading="lazy" decoding="async" />}
-        <span className="project-code">P—0{index + 1}</span>
         <strong>{project.category}</strong>
       </figure>
       <div className="project-copy">
-        <p className="meta">Featured project · 0{index + 1}</p>
         <h3>{project.title}</h3>
         <p className="project-summary">{project.shortDescription}</p>
         <dl>

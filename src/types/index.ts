@@ -49,6 +49,7 @@ export interface LeadershipExperience {
   period: string;
   summary: string;
   impact: string;
+  award?: string;
   image?: string;
   imageAlt?: string;
   imagePosition?: string;

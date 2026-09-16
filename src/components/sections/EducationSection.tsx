@@ -7,7 +7,7 @@ export function EducationSection() {
   return (
     <section id="education">
       <Container>
-        <SectionHeading index="05" title="Education" />
+        <SectionHeading title="Education" />
         <article className="education-card">
           <div><p className="meta">{item.period}</p><h3>{item.degree}</h3><p>{item.institution}</p></div>
           <div className="gpa"><span>GPA</span><strong>{item.gpa}</strong></div>

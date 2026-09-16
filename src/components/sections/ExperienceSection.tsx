@@ -7,14 +7,12 @@ export function ExperienceSection() {
   return (
     <section id="experience">
       <Container>
-        <SectionHeading index="02" title="Experience with real operating constraints." intro="Three internships across energy, banking, and enterprise workflow systems." />
+        <SectionHeading title="Experience with real operating constraints." intro="Three internships across energy, banking, and enterprise workflow systems." />
         <div className="experience-list">
-          {experience.map((item, index) => (
+          {experience.map((item) => (
             <article className="experience-row" key={item.id}>
-              <div className="experience-number">0{index + 1}</div>
               <div>
-                <p className="meta">{item.company}</p>
-                <h3>{item.position}</h3>
+                <h3>{item.position} <span aria-hidden="true">-</span> {item.company}</h3>
                 <p>{item.summary}</p>
                 <ul>{item.responsibilities.map((line) => <li key={line}>{line}</li>)}</ul>
                 <p className="impact">{item.impact}</p>

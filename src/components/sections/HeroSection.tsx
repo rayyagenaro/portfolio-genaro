@@ -33,9 +33,9 @@ export function HeroSection() {
           <div className="orbit orbit-one" />
           <div className="orbit orbit-two" />
           <div className="core-mark"><img src="/photos/profile4formal.webp" alt="Formal portrait of Rayya Genaro" /></div>
-          <div className="capability cap-one"><b>01</b><span>Web<br />Development</span></div>
-          <div className="capability cap-two"><b>02</b><span>Data & Business<br />Intelligence</span></div>
-          <div className="capability cap-three"><b>03</b><span>Project<br />Management</span></div>
+          <div className="capability cap-one"><span>Web<br />Development</span></div>
+          <div className="capability cap-two"><span>Data & Business<br />Intelligence</span></div>
+          <div className="capability cap-three"><span>Project<br />Management</span></div>
         </div>
         <div className="scroll-note"><span>Scroll to explore</span></div>
       </Container>

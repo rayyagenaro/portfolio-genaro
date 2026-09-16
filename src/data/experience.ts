@@ -2,7 +2,7 @@ import type { Experience } from '@/src/types';
 
 export const experience: Experience[] = [
   {
-    id: 'ika-maju-sejahtera', company: 'IKA Maju Sejahtera (PLN)', position: 'PLTS Data Survey Engineer Intern', period: 'Jun 2026 - Present',
+    id: 'ika-maju-sejahtera', company: 'PT IKA Maju Sejahtera (PLN)', position: 'PLTS Data Survey Engineer', period: 'Jun 2026 - Present',
     summary: 'Process and validate geospatial survey data for rural electrification planning across Indonesia\'s 3T regions.',
     responsibilities: ['Automate coordinate validation, point-in-polygon analysis, and administrative matching.', 'Combine boundary, population, elevation, and soil data for spatial analysis.', 'Build interactive Web GIS tools for exploration and reporting.'],
     impact: 'Geospatial datasets processed across 485 remote locations.',

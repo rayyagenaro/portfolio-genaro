@@ -1,4 +1,3 @@
-import { ArrowUpRight, Code2 } from 'lucide-react';
 import { Container } from '../layout/Container';
 import { SectionHeading } from '../ui/SectionHeading';
 import { FeaturedProject } from '../project/FeaturedProject';
@@ -18,7 +17,7 @@ export function ProjectsSection() {
             <h3>Many more projects.</h3>
           </div>
           <p>Coursework, experiments, and smaller builds across web development, analytics, optimization, and information systems.</p>
-          <a href="https://github.com/rayyagenaro" target="_blank" rel="noreferrer"><Code2 aria-hidden="true" />Explore GitHub<ArrowUpRight aria-hidden="true" /></a>
+          <a href="https://github.com/rayyagenaro" target="_blank" rel="noreferrer">Explore GitHub <span aria-hidden="true">↗</span></a>
         </aside>
       </Container>
     </section>

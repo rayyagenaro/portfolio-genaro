@@ -1,8 +1,6 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { Menu, X } from 'lucide-react';
-import { Button } from '@/components/ui/button';
 
 const links = [
   { href: '#home', label: 'Home' }, { href: '#about', label: 'About' },
@@ -30,7 +28,9 @@ export function Navbar() {
         <a href="#home" className="brand" aria-label="Rayya Genaro home">Rayya Genaro</a>
         <div className="desktop-nav">{links.map((link) => <a key={link.href} href={link.href} aria-current={active === link.href.slice(1) ? 'location' : undefined}>{link.label}</a>)}</div>
         <a className="nav-contact" href="mailto:gennarorayya05@gmail.com">Let’s talk</a>
-        <Button className="menu-button" variant="ghost" size="icon-lg" aria-label={open ? 'Close navigation' : 'Open navigation'} aria-expanded={open} onClick={() => setOpen(!open)}>{open ? <X aria-hidden="true" /> : <Menu aria-hidden="true" />}</Button>
+        <button className="menu-button" type="button" aria-label={open ? 'Close navigation' : 'Open navigation'} aria-expanded={open} onClick={() => setOpen(!open)}>
+          <span className={`menu-icon ${open ? 'is-open' : ''}`} aria-hidden="true" />
+        </button>
       </div>
       {open && <div className="mobile-nav">{links.map((link) => <a key={link.href} href={link.href} onClick={() => setOpen(false)}>{link.label}</a>)}</div>}
     </nav>
